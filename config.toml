@@ -1,23 +1,85 @@
 theme = "awesome-identity"
 baseURL = "https://filipealex.github.io/"
-title = "Awesome Identity for Hugo"
+title = "Byungjin Park - Software Architect / Hacker"
+languageCode = "en-US"
+# Content without language indicator will default to this language
+defaultContentLanguage = "en"
+# Make .Summary and .WordCount behave correctly for CJK languages
+hasCJKLanguage = true
+PygmentsCodeFences = true
+# Enable to turn relative URLs into absolute
+canonifyURLs = true
+# Do not convert the url/path to lowercase
+disablePathToLower = false
+# Enable Emoji emoticons support for page content
+enableEmoji = true
+# Update the `Lastmod` parameter for each page using the last git commit date for that content file
+enableGitInfo = true
+# Enable generation of `robots.txt` file
+enableRobotsTXT = true
+
+# Google Analytics tracking ID
+googleAnalytics = "UA-96267122-2"
+
+
+# Add your own params here
+[params]
+  # Google Webmaster
+  # https://www.google.com/webmasters/
+  # googleSiteVerification = ""
+
+## Meta Configurations (HTTP Meta tags & OpenGraph)
+[params.meta]
+  description = "Site Reliability Engineer at Kasa."
+  keywords = "posquit0, bj, bj.park, byungjin, byungjinpark, sre, devops, backend, engineer, developer, architect"
+  images = [
+    "/images/profile.jpg"
+  ]
 
 
 ## Profile Configurations
 [params.profile]
-  portrait = "/images/portrait-default.png"
-  firstname = "John"
-  lastname = "Smith"
-  title = "VP of Engineering / Godfather"
-  bio = """John Smith brings over 40 years experience leading, contributing to, and growing engineering organizations in top [**VR**](https://en.wikipedia.org/wiki/Virtual_reality) technology companies.
+  portrait = "/images/profile.jpg"
+  firstname = "Byungjin"
+  lastname = "Park"
+  title = "Software Architect / Hacker"
+  bio = """Current Site Reliability Engineer at start-up company [**Kasa**](http://kasa.network).
 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et lacinia metus. Aliquam venenatis, orci ornare mollis congue, mi arcu lobortis tellus, id pulvinar ex ante eu mauris.
+  7+ years experience specializing in the backend development, infrastructure automation, and computer hacking/security.
 
-  Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.
-  """
+  Super nerd who loves Vim, Linux and OS X and enjoys to customize all of the development environment.
+
+  Interested in devising a better problem-solving method for challenging tasks, and learning new technologies and tools if the need arises."""
+
+## Contacts Configurations
+[params.contacts]
+  email = "posquit0.bj@gmail.com"
+  github = "posquit0"
+  twitter = "posquit0"
+  linkedin = "posquit0"
+  keybase = "posquit0"
+  # facebook = "posquit0"
+  # stackoverflow = "7919458"
+  # instagram = "posquit0.bj"
+  # medium = "posquit0"
+  # quora = "melaozhu"
+  # dribbble = "laozhu"
+  # behance = "melaozhu"
 
 
-## Footer Configurations
-[params.footer]
-  copyright = "© 2019 Byungjin Park. [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)."
-  poweredBy = true
+## Actions Configurations
+[[params.actions]]
+  name = "Review My CV"
+  url = "https://down.pwntastic.kr/public/cv.pdf"
+
+
+## Privacy Configurations (GDPR)
+[privacy]
+  [privacy.googleAnalytics]
+    disable = false
+    # Make the users’ IP addresses are anonymized within Google Analytics
+    anonymizeIP = false
+    # Make the GA templates respect the “Do Not Track” HTTP header
+    respectDoNotTrack = false
+    # Disable the use of Cookies and use Session Storage to Store the GA Client ID
+    useSessionStorage = false
