@@ -1,6 +1,6 @@
 theme = "awesome-identity"
 baseURL = "https://filipealex.github.io/"
-title = "Byungjin Park - Software Architect / Hacker"
+title = "Fiipe Barroso - Software Engineer · Database Administrator"
 languageCode = "en-US"
 # Content without language indicator will default to this language
 defaultContentLanguage = "en"
@@ -19,7 +19,7 @@ enableGitInfo = true
 enableRobotsTXT = true
 
 # Google Analytics tracking ID
-googleAnalytics = "UA-96267122-2"
+googleAnalytics = "UA-153439313-1"
 
 
 # Add your own params here
@@ -30,8 +30,8 @@ googleAnalytics = "UA-96267122-2"
 
 ## Meta Configurations (HTTP Meta tags & OpenGraph)
 [params.meta]
-  description = "Site Reliability Engineer at Kasa."
-  keywords = "posquit0, bj, bj.park, byungjin, byungjinpark, sre, devops, backend, engineer, developer, architect"
+  description = "Fiipe Barroso - Software Engineer · Database Administrator"
+  keywords = "filipe, barroso, alex, software, dba, database, administration, backend, engineer, developer"
   images = [
     "/images/profile.jpg"
   ]
@@ -40,37 +40,26 @@ googleAnalytics = "UA-96267122-2"
 ## Profile Configurations
 [params.profile]
   portrait = "/images/profile.jpg"
-  firstname = "Byungjin"
-  lastname = "Park"
-  title = "Software Architect / Hacker"
-  bio = """Current Site Reliability Engineer at start-up company [**Kasa**](http://kasa.network).
-
-  7+ years experience specializing in the backend development, infrastructure automation, and computer hacking/security.
-
-  Super nerd who loves Vim, Linux and OS X and enjoys to customize all of the development environment.
-
-  Interested in devising a better problem-solving method for challenging tasks, and learning new technologies and tools if the need arises."""
+  firstname = "Filipe"
+  lastname = "Barroso"
+  title = "Software Engineer · Database Administrator"
+  bio = """A self-motivated software developer professional with the ability to grasp new concepts, understand complex ideas and continually master new skills. 
+  
+  Experienced in database administration and back-end software development. 
+  Applies rigour and creativity by combining expertise in programming languages, database development and computer science to solve diverse enterprise application problems. 
+  
+  Ability to work well on a team and individually."""
 
 ## Contacts Configurations
 [params.contacts]
-  email = "posquit0.bj@gmail.com"
-  github = "posquit0"
-  twitter = "posquit0"
-  linkedin = "posquit0"
-  keybase = "posquit0"
-  # facebook = "posquit0"
-  # stackoverflow = "7919458"
-  # instagram = "posquit0.bj"
-  # medium = "posquit0"
-  # quora = "melaozhu"
-  # dribbble = "laozhu"
-  # behance = "melaozhu"
-
+  email = "filipe.alex.barroso@gmail.com"
+  github = "FilipeAlex"
+  linkedin = "filipe-alex-barroso"
 
 ## Actions Configurations
 [[params.actions]]
   name = "Review My CV"
-  url = "https://down.pwntastic.kr/public/cv.pdf"
+  url = "https://www.dropbox.com/s/y0zrw00g9nq1y93/Filipe-Barroso-CV.pdf?dl=0"
 
 
 ## Privacy Configurations (GDPR)
@@ -83,3 +72,8 @@ googleAnalytics = "UA-96267122-2"
     respectDoNotTrack = false
     # Disable the use of Cookies and use Session Storage to Store the GA Client ID
     useSessionStorage = false
+	
+## Footer Configurations
+[params.footer]
+  copyright = "© 2019 Filipe Barroso. [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)."
+  poweredBy = true
